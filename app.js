@@ -287,6 +287,79 @@
 // }
 // mainFunction();
 
+//Q5
+// function findIndex(a) {
+//     return a.indexOf('development');
+//   }
+//   var result = findIndex(['e', 'mobile', 'development']);
+//   alert(result);
+
+//Q6
+// var str = prompt("ENTER ANY SENTENCE :");
+// string = str.replace( /[aeiou]/g, '' );
+// alert(string);
+
+//Q7
+// function countOccurrencesOfVovels() {
+//     var str = "Pleases read this application and give me gratuity";
+//     var count = 0;
+//     switch (str) {
+//         case 'a':
+//             count++;
+//         case 'A':
+//             count++
+//         case 'e':
+//         case 'E':
+//         case 'i':
+//         case 'I':
+//         case 'o':
+//         case 'O':
+//         case 'u':
+//         case 'U':
+//         default:
+//             document.write(str)
+
+//         }
+// }
+// countOccurrencesOfVovels();
+
+//Q8
+// function findKilometers(){
+// var kilometers= prompt("Enter Distance")
+// var meters = kilometers*1000;
+// var centimeters = kilometers * 1000 * 100;
+// var feet = kilometers * 3280.84;
+// var inches = kilometers * 39370.08;
+// document.write("Distance in Meters : " + meters + "<br>" + "Distance in Feet : " + feet + "<br>"+ "The distance in Inches : " + inches + "<br>" + "Distance in Centimeters : " + centimeters + "<br>" )
+// }
+// findKilometers();
+
+
+//Q9
+// function overTime()
+// {
+// var above40 = prompt("Enter the Hours for an employee worked above 40 hours : ")
+// var i=1;
+//  while(i <= time)
+//  {
+//   above40 = i*12;
+//   i++;
+//  }
+//  document.write("Overtime of this employee is Rs " + above40);
+// }
+// overTime();
+
+
+//Q10
+// function cashier()
+// {
+//     var amount = prompt("Enter Ammount")
+//     var calc100 = document.write("Notes of Rs. 100 : " + Math.trunc(amount/100)+"</br>")
+//     var calc50 = document.write("Notes of Rs. 50 : " + Math.trunc((amount % 100) /50)+"</br>" )
+//     var calc10 = document.write("Notes of Rs. 10 : " + Math.trunc((amount % 100) %50 /10) +"</br>")
+// }
+//    cashier();
+
 
 
 
